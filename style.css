@@ -6,12 +6,17 @@ body,
   overflow-x: hidden;
 }
 
-navbar {
-  --bs-bg0opacity: 0;
-}
 #main-navbar {
+  /* --bs-bg0opacity: 0; */
   font-size: 1.5rem;
   font-weight: 100;
+  /* --bs-bg0opacity: 0; */
+}
+
+.scrolled {
+  /* background-color: black !important; */
+  background: #e0c2de !important;
+  transition: background 500ms;
 }
 
 .header-color {
