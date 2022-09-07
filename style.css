@@ -3,6 +3,7 @@ body,
   font-family: 'Nunito', sans-serif !important;
   /* font-family: 'Open Sans', sans-serif; */
   background: #f5d9d5;
+  overflow-x: hidden;
 }
 
 navbar {
@@ -14,9 +15,19 @@ navbar {
 }
 
 .header-color {
-  color: #ea1c2c;
+  color: #ea1c2c !important;
   font-size: 1.5rem;
   font-weight: 100;
+}
+
+/* This turns the brand name white on hover. Saving in place for potential later use */
+/* .header-color:hover {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-light-rgb), var(--bs-text-opacity)) !important;
+} */
+
+.nav-link:hover {
+  color: #ea1c2c !important;
 }
 
 #heading-group h1 {
@@ -26,6 +37,10 @@ navbar {
 
 .span-color {
   color: #ea1c2c;
+}
+
+.custom-margin-y {
+  margin-top: 6rem !important;
 }
 
 /* 
