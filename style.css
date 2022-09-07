@@ -53,14 +53,42 @@ body,
   margin-top: 6rem !important;
 }
 
+.blurb h2 {
+  color: #ea1c2c;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+.blurb p {
+  color: #f498b8;
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+@media (max-width: 991px) {
+  .custom-mobile-margin {
+    margin-top: 6rem;
+  }
+}
+
+@media (max-width: 1350px) {
+  .blurb p {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+}
+
 @media (max-width: 1200px) {
   #heading-group h1 {
     font-weight: 100;
     font-size: 3rem;
   }
-  /* .blurb h2 {
+  .blurb h2 {
     font-size: 2rem;
-  } */
+  }
 }
 
 /* 
