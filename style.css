@@ -1,9 +1,14 @@
+html {
+  overflow-x: hidden;
+}
+
 body,
 .nunito-font {
   font-family: 'Nunito', sans-serif !important;
   /* font-family: 'Open Sans', sans-serif; */
   background: #f5d9d5;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 #main-navbar {
@@ -46,6 +51,16 @@ body,
 
 .custom-margin-y {
   margin-top: 6rem !important;
+}
+
+@media (max-width: 1200px) {
+  #heading-group h1 {
+    font-weight: 100;
+    font-size: 3rem;
+  }
+  /* .blurb h2 {
+    font-size: 2rem;
+  } */
 }
 
 /* 
