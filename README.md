@@ -1,5 +1,7 @@
 # museum-of-candy
 
-A Bootstrap v5.2 practice site.
+Museum of Candy © 2022
 
-Checkout the site here: https://vilasi.github.io/museum-of-candy
+https://vilasi.github.io/museum-of-candy
+
+![The art exhibit of the modern era.](./imgs/git_header.png 'Museum of Candy')
